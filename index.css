@@ -1,0 +1,260 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+h1 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 64px;
+    text-align: center;
+    margin: 20px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Chelsea Market', cursive;
+    font-size: 30px;
+    margin: 30px;
+}
+
+.heading img::before {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.first-para {
+    text-align: center;
+    font-size: 30px;
+}
+
+.para {
+    display: block;
+    background-color: #DDB9A3;
+    color: white;
+    font-family: 'Chelsea Market', cursive;
+    font-size: 20px;
+    padding: 10px;
+    margin: 35px;
+}
+
+.info {
+    padding: 400px;
+    font-family: 'Roboto Mono', monospace;
+    word-break: normal;
+}
+
+.recommend {
+    padding: 400px;
+    font-family: 'Roboto Mono', monospace;
+    word-break: normal;
+}
+
+.one {
+    flex-direction: column;
+    justify-content: space-between;
+    justify-content: space-around;
+    justify-content: space-evenly;
+}
+
+.beautiful {
+    background-color: #F9E7DC;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Chelsea Market', cursive;
+    font-size: 30px;
+}
+
+#plan {
+    border-radius: 24px;
+    background-color: #FF764E;
+    display: inline;
+    padding: 15px;
+    margin-right: 90px;
+}
+
+#learn {
+    border-radius: 25px;
+    background-color: #5ED3EB;
+    display: inline;
+    padding: 15px;
+    margin-right: 90px;
+}
+
+#involve {
+    border-radius: 25px;
+    background-color: #FFCD69;
+    display: inline;
+    padding: 15px;
+}
+
+#firstMargin {
+    margin: 10px;
+}
+
+#secondMargin {
+    margin: 30px;
+}
+
+#lightning {
+    margin: 25px;
+}
+
+#thunder {
+    margin: 25px;
+}
+
+#fire {
+    width: 150px;
+    margin-left: 208px;
+}
+
+#firepara {
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: center;
+}
+
+#camper {
+    width: 150px;
+    margin-left: 200px;
+}
+
+#camperpara {
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: center;
+}
